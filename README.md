@@ -4,8 +4,9 @@ Allows you to embed hex tooltips in NodeBB post content. Just use the following 
 
 NOTE: This requires you add the following javascript from hex.tcgbrowser.com!
 
-##  <script type="text/javascript" src="http://hex.tcgbrowser.com/tools/tooltips/tooltip.js"></script> 
-
+```
+<script type="text/javascript" src="http://hex.tcgbrowser.com/tools/tooltips/tooltip.js"></script> 
+```
 
 ```
 ;hex(card)
