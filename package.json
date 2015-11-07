@@ -1,0 +1,34 @@
+{
+  "name": "nodebb-plugin-hextooltips",
+  "version": "0.1.0",
+  "description": "Hex Tooltips Markdown for NodeBB",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "#"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "hex",
+    "text"
+  ],
+  "author": {
+    "name": "rydavim",
+    "email": "rydavim@gmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "#"
+  },
+  "nbbpm": {
+    "compatibility": "^0.6.0"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "_id": "nodebb-plugin-hextooltips@0.0.1",
+  "_from": "nodebb-plugin-hextooltips@~0.0.1"
+}

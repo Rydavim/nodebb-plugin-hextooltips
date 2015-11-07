@@ -1,0 +1,19 @@
+{
+	"id": "nodebb-plugin-hextooltips",
+	"name": "Hex Tooltips for NodeBB",
+	"description": "Provides markdown like syntax for displaying hex tooltips on your forum. Requires the tooltips script from hex.tcgbrowser.com tools section.",
+	"url": "#",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "filter:parse.post", "method": "parse", "priority": 6 }
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+    	"./static/hextooltips.less"
+    ],
+    "scripts": [
+		"static/hextooltips.js"
+	]
+}
